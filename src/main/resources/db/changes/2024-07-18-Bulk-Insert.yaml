@@ -1,0 +1,28 @@
+databaseChangeLog:
+  - changeSet:
+      id: bulk-insert-customers
+      author: apereira
+      changes:
+        - customChange: {
+          "class": "com.webinar.elasticsearch.liquibase.ElasticsearchBulkInsertChange",
+          "indexName": "customers",
+          "filePath": "/db/elasticsearch/bulk-customers.json"
+        }
+  - changeSet:
+      id: bulk-insert-products
+      author: apereira
+      changes:
+        - customChange: {
+          "class": "com.webinar.elasticsearch.liquibase.ElasticsearchBulkInsertChange",
+          "indexName": "products",
+          "filePath": "/db/elasticsearch/bulk-products.json"
+        }
+  - changeSet:
+      id: bulk-insert-orders
+      author: apereira
+      changes:
+        - customChange: {
+          "class": "com.webinar.elasticsearch.liquibase.ElasticsearchBulkInsertChange",
+          "indexName": "orders",
+          "filePath": "/db/elasticsearch/bulk-orders.json"
+        }

@@ -8,3 +8,16 @@ services:
     ports:
       - '9200:9200'
       - '9300:9300'
+  mysql:
+    image: 'mysql:8.3.0'
+    environment:
+      MYSQL_DATABASE: webinar
+      MY_USER: 'root'
+      MYSQL_ROOT_PASSWORD: 'root'
+    volumes:
+      - mysql-vol:/var/lib/mysql
+    ports:
+      - '3306:3306'
+volumes:
+  mysql-vol:
+    driver: local

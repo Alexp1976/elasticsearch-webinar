@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Laptop",
+    "description": "A high performance laptop",
+    "price": 1200.00
+  },
+  {
+    "id": "2",
+    "name": "Smartphone",
+    "description": "A latest generation smartphone",
+    "price": 800.00
+  },
+  {
+    "id": "3",
+    "name": "Tablet",
+    "description": "A lightweight tablet",
+    "price": 500.00
+  },
+  {
+    "id": "4",
+    "name": "Headphones",
+    "description": "Noise-cancelling headphones",
+    "price": 200.00
+  },
+  {
+    "id": "5",
+    "name": "Smartwatch",
+    "description": "A smartwatch with various features",
+    "price": 250.00
+  }
+]

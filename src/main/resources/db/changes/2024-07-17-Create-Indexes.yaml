@@ -1,0 +1,28 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-orders-index
+      author: apereira
+      changes:
+        - customChange: {
+            "class": "com.webinar.elasticsearch.liquibase.ElasticsearchMigrationTaskChange",
+            "indexName": "orders",
+            "filePath": "/db/elasticsearch/create-orders-index.json"
+        }
+  - changeSet:
+      id: create-products-index
+      author: apereira
+      changes:
+        - customChange: {
+          "class": "com.webinar.elasticsearch.liquibase.ElasticsearchMigrationTaskChange",
+          "indexName": "products",
+          "filePath": "/db/elasticsearch/create-products-index.json"
+        }
+  - changeSet:
+      id: create-customers-index
+      author: apereira
+      changes:
+        - customChange: {
+          "class": "com.webinar.elasticsearch.liquibase.ElasticsearchMigrationTaskChange",
+          "indexName": "customers",
+          "filePath": "/db/elasticsearch/create-customers-index.json"
+        }

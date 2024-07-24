@@ -1,0 +1,143 @@
+[
+  {
+    "id": "1",
+    "customerId": "1",
+    "orderDate": "2023-07-01",
+    "products": [
+      {
+        "id": "1",
+        "name": "Laptop",
+        "description": "A high performance laptop",
+        "price": 1200.00
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "customerId": "1",
+    "orderDate": "2023-07-02",
+    "products": [
+      {
+        "id": "2",
+        "name": "Smartphone",
+        "description": "A latest generation smartphone",
+        "price": 800.00
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "customerId": "1",
+    "orderDate": "2023-07-03",
+    "products": [
+      {
+        "id": "3",
+        "name": "Tablet",
+        "description": "A lightweight tablet",
+        "price": 500.00
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "customerId": "1",
+    "orderDate": "2023-07-04",
+    "products": [
+      {
+        "id": "4",
+        "name": "Headphones",
+        "description": "Noise-cancelling headphones",
+        "price": 200.00
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "customerId": "1",
+    "orderDate": "2023-07-05",
+    "products": [
+      {
+        "id": "5",
+        "name": "Smartwatch",
+        "description": "A smartwatch with various features",
+        "price": 250.00
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "customerId": "2",
+    "orderDate": "2023-07-10",
+    "products": [
+      {
+        "id": "2",
+        "name": "Smartphone",
+        "description": "A latest generation smartphone",
+        "price": 800.00
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "customerId": "3",
+    "orderDate": "2023-07-15",
+    "products": [
+      {
+        "id": "3",
+        "name": "Tablet",
+        "description": "A lightweight tablet",
+        "price": 500.00
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "customerId": "4",
+    "orderDate": "2023-07-20",
+    "products": [
+      {
+        "id": "4",
+        "name": "Headphones",
+        "description": "Noise-cancelling headphones",
+        "price": 200.00
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "customerId": "5",
+    "orderDate": "2023-07-25",
+    "products": [
+      {
+        "id": "1",
+        "name": "Laptop",
+        "description": "A high performance laptop",
+        "price": 1200.00
+      },
+      {
+        "id": "2",
+        "name": "Smartphone",
+        "description": "A latest generation smartphone",
+        "price": 800.00
+      },
+      {
+        "id": "3",
+        "name": "Tablet",
+        "description": "A lightweight tablet",
+        "price": 500.00
+      },
+      {
+        "id": "4",
+        "name": "Headphones",
+        "description": "Noise-cancelling headphones",
+        "price": 200.00
+      },
+      {
+        "id": "5",
+        "name": "Smartwatch",
+        "description": "A smartwatch with various features",
+        "price": 250.00
+      }
+    ]
+  }
+]

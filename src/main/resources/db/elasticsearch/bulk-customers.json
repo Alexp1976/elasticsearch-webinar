@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "John Doe",
+    "age": 30,
+    "active": true,
+    "dateOfBirth": "1993-05-15"
+  },
+  {
+    "id": "2",
+    "name": "Jane Smith",
+    "age": 25,
+    "active": false,
+    "dateOfBirth": "1998-08-20"
+  },
+  {
+    "id": "3",
+    "name": "Alice Johnson",
+    "age": 28,
+    "active": true,
+    "dateOfBirth": "1995-03-10"
+  },
+  {
+    "id": "4",
+    "name": "Bob Brown",
+    "age": 35,
+    "active": false,
+    "dateOfBirth": "1988-11-30"
+  },
+  {
+    "id": "5",
+    "name": "Charlie Davis",
+    "age": 40,
+    "active": true,
+    "dateOfBirth": "1983-07-25"
+  }
+]
